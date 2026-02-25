@@ -1,7 +1,7 @@
 import json
 import mysql.connector
 
-# JSON file path
+# JSON file 
 json_file = "D:\\Siddharth\\Aribnb\\pythonProject\\AIRBNB_VALIDATEDFILE_2026_02_23.json"
 
 # Load JSON
@@ -131,4 +131,5 @@ print(cursor.rowcount, "property inserted.")
 con.commit()
 cursor.close()
 con.close()
+
 
